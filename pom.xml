@@ -9,7 +9,7 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>se.lexicon</groupId>
-    <artifactId>Week38_SpringBoot_StudentAddress</artifactId>
+    <artifactId>Week38_StudentAddress_SpringBoot</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>Week38_SpringBoot_StudentAddress</name>
     <description>Week38_SpringBoot_StudentAddress</description>

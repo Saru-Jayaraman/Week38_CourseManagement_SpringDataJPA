@@ -13,11 +13,14 @@ import java.util.Optional;
 @Component
 public class MyCommandLineRunner implements CommandLineRunner {
 
-    @Autowired
-    StudentRepository studentRepository;
+    private StudentRepository studentRepository;
+    private AddressRepository addressRepository;
 
     @Autowired
-    AddressRepository addressRepository;
+    public MyCommandLineRunner(StudentRepository studentRepository, AddressRepository addressRepository) {
+        this.studentRepository = studentRepository;
+        this.addressRepository = addressRepository;
+    }
 
     @Override
     public void run(String... args) throws Exception {
