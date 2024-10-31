@@ -1,4 +1,4 @@
-## Student - Course Management Application
+## Student - Course Management Application - Spring Boot project
 Task is to create Console based Java EE Application using Spring framework.
 Make the Spring Container build the bean for classes & interfaces in entities and repositories.
 * Our main focus will be creating a student management app using Spring's Inversion of Control (IOC), Dependency Injection (DI), Spring Web and Spring Data JPA features.
